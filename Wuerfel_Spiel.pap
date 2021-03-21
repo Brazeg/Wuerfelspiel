@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="56AE7F9C23294C87">
+  <PROJECT FORMAT="1.00" NAME="Wuerfel_Spiel" AUTHOR="s0559016" CREATED="2020.11.24 15:04:01" MODIFIED="2020.11.24 17:10:27">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Hauptprogramm 1" CREATED="2020.11.24 15:04:12" MODIFIED="2020.11.24 17:10:27">
+        <LAYOUT FORMAT="1.00" COLUMNS="3" ROWS="22">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="17">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="180">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="19">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="184">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Hauptprogramm 1]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Initialisierung des Mikrocontrollers]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="192">
+                <TEXT><![CDATA[Welcome Animation]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="6" ASSOCIATE="8">
+                <TEXT><![CDATA[while 1]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[taster gedrückt?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="29">
+                <TEXT><![CDATA[Eingabe von Taster]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Wert des letzten Wurfvorganges anzeigen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="170">
+                <TEXT><![CDATA[Starten des counters]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="9">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="51">
+                <TEXT><![CDATA[counter < 15s ?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="10">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="44">
+                <TEXT><![CDATA[taster gedrückt?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="11">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="123">
+                <TEXT><![CDATA[Eingabe von Taster]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="12">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="194">
+                <TEXT><![CDATA[Berechnung einer pseudo-zufälligen Zahl zwischen1 und 6]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="13">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="25">
+                <TEXT><![CDATA[Animation der LEDs zur Darstellung des Würfelvorganges]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="14">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="27">
+                <TEXT><![CDATA[Ausgabe von der Animation des Würfelvorgangs]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="15">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="23">
+                <TEXT><![CDATA[Ausgabe der errechneten pseudozufalls Zahl mit Hilfe der LEDs]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="16">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="172">
+                <TEXT><![CDATA[Starten des counters]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="17">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="174">
+                <TEXT><![CDATA[counter < 15s ?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="18">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="56">
+                <TEXT><![CDATA[sleep mode]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="19">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="187">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="20">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="8" ASSOCIATE="6">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="21">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="5">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="106">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="9">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="160">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="10">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="163">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="17">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="195">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="18">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="176">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="193" FROM="192" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="162" FROM="51" TO="160" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="107" FROM="14" TO="106" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="165" FROM="44" TO="163" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="24" FROM="23" TO="172" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="26" FROM="25" TO="27" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="28" FROM="27" TO="23" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="166" FROM="29" TO="10" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="14" TO="29" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="164" FROM="163" TO="195" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="161" FROM="160" TO="163" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="173" FROM="172" TO="174" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="188" FROM="187" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="169" FROM="194" TO="25" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="167" FROM="44" TO="123" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="168" FROM="123" TO="194" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="118" FROM="106" TO="160" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="14" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="159" FROM="51" TO="44" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="197" FROM="174" TO="195" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="156" FROM="10" TO="170" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="171" FROM="170" TO="51" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="196" FROM="195" TO="176" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="60" FROM="176" TO="56" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="181" FROM="174" TO="180" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="57" FROM="56" TO="187" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="183" FROM="180" TO="184" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="189" FROM="184" TO="187" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="192" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="2" NAME="Berechnung einer pseudo-zufälligen Zahl" CREATED="2020.11.24 16:51:54" MODIFIED="2020.11.24 16:51:54">
+        <LAYOUT FORMAT="1.00" COLUMNS="2" ROWS="10">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Berechnung einer pseudo-zufälligen Zahl]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Generierung einer pseudo-Zufallszahl zwischen 1 und 6]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Wert 1?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Wert 2?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Wert 3?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[Wert 4?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[Wert 5?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[Wert 6?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="3">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="24">
+                <TEXT><![CDATA[Ausgabe von 1 LED: mitte]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="26">
+                <TEXT><![CDATA[Ausgabe von 2 LEDs: links-mitte, rechts-mitte]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="27">
+                <TEXT><![CDATA[Ausgabe von 3 LEDs: links-unten, mitte, rechts-oben]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="29">
+                <TEXT><![CDATA[Ausgabe von 4 LEDs: links-oben, links-unten, rechts-oben, rechts-unten]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="32">
+                <TEXT><![CDATA[Ausgabe von 5 LEDs: mitte, links-oben, links-unten, rechts-oben, rechts-unten]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="35">
+                <TEXT><![CDATA[Ausgabe von 6 LEDs: links-oben,links-mitte,links-unten, rechts-oben,rechts-mitte,rechts-unten]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="10" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="6" TO="24" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="10" TO="12" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="12" TO="14" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="14" TO="16" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="16" TO="18" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="38" FROM="18" TO="2" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="23" FROM="12" TO="27" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="21" FROM="10" TO="26" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="30" FROM="14" TO="29" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="34" FROM="16" TO="32" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="37" FROM="18" TO="35" TEXT="ja" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
