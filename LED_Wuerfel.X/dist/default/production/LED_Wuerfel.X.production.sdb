@@ -1,0 +1,220 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1840 ]
+[d frameptr 6 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"49 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"57 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"68
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"57 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"106
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"118
+[v _IOCAF0_ISR IOCAF0_ISR `(v  1 e 1 0 ]
+"133
+[v _IOCAF0_SetInterruptHandler IOCAF0_SetInterruptHandler `(v  1 e 1 0 ]
+"140
+[v _IOCAF0_DefaultInterruptHandler IOCAF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+[s S155 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic12f1840.h
+[s S164 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S169 . 1 `S155 1 . 1 0 `S164 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES169  1 e 1 @11 ]
+"1002
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S46 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1177
+[s S55 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S60 . 1 `S46 1 . 1 0 `S55 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES60  1 e 1 @149 ]
+"1288
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1347
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1405
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1732
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S288 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"1747
+[u S295 . 1 `S288 1 . 1 0 ]
+[v _LATAbits LATAbits `VES295  1 e 1 @268 ]
+"1914
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2253
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2395
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2985
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+[s S123 . 1 `uc 1 IOCAP0 1 0 :1:0 
+`uc 1 IOCAP1 1 0 :1:1 
+`uc 1 IOCAP2 1 0 :1:2 
+`uc 1 IOCAP3 1 0 :1:3 
+`uc 1 IOCAP4 1 0 :1:4 
+`uc 1 IOCAP5 1 0 :1:5 
+]
+"4140
+[s S130 . 1 `uc 1 IOCAP 1 0 :6:0 
+]
+[u S132 . 1 `S123 1 . 1 0 `S130 1 . 1 0 ]
+[v _IOCAPbits IOCAPbits `VES132  1 e 1 @913 ]
+[s S101 . 1 `uc 1 IOCAN0 1 0 :1:0 
+`uc 1 IOCAN1 1 0 :1:1 
+`uc 1 IOCAN2 1 0 :1:2 
+`uc 1 IOCAN3 1 0 :1:3 
+`uc 1 IOCAN4 1 0 :1:4 
+`uc 1 IOCAN5 1 0 :1:5 
+]
+"4198
+[s S108 . 1 `uc 1 IOCAN 1 0 :6:0 
+]
+[u S110 . 1 `S101 1 . 1 0 `S108 1 . 1 0 ]
+[v _IOCANbits IOCANbits `VES110  1 e 1 @914 ]
+[s S79 . 1 `uc 1 IOCAF0 1 0 :1:0 
+`uc 1 IOCAF1 1 0 :1:1 
+`uc 1 IOCAF2 1 0 :1:2 
+`uc 1 IOCAF3 1 0 :1:3 
+`uc 1 IOCAF4 1 0 :1:4 
+`uc 1 IOCAF5 1 0 :1:5 
+]
+"4256
+[s S86 . 1 `uc 1 IOCAF 1 0 :6:0 
+]
+[u S88 . 1 `S79 1 . 1 0 `S86 1 . 1 0 ]
+[v _IOCAFbits IOCAFbits `VES88  1 e 1 @915 ]
+"7 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\rand.c
+[v _seed seed `uo  1 s 8 seed ]
+"54 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\mcc_generated_files/pin_manager.c
+[v _IOCAF0_InterruptHandler IOCAF0_InterruptHandler `*.37(v  1 e 2 0 ]
+"49 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"74
+} 0
+"50 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"68
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"57 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"104
+} 0
+"133
+[v _IOCAF0_SetInterruptHandler IOCAF0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCAF0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"135
+} 0
+"58 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"66
+} 0
+"57 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"66
+[v INTERRUPT_InterruptManager@n n `i  1 a 2 34 ]
+"105
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+{
+"23
+} 0
+"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+{
+"93
+[v ___omul@product product `uo  1 a 8 1 ]
+"91
+[v ___omul@multiplier multiplier `uo  1 p 8 0 ]
+[v ___omul@multiplicand multiplicand `uo  1 p 8 8 ]
+"354
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 13 ]
+[v ___awmod@counter counter `uc  1 a 1 12 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 24 ]
+[v ___awmod@dividend dividend `i  1 p 2 26 ]
+"34
+} 0
+"106 H:\Desktop\Wuerfelspiel\LED_Wuerfel.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"113
+} 0
+"118
+[v _IOCAF0_ISR IOCAF0_ISR `(v  1 e 1 0 ]
+{
+"128
+} 0
+"140
+[v _IOCAF0_DefaultInterruptHandler IOCAF0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"143
+} 0
